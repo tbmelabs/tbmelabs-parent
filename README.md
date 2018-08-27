@@ -1,4 +1,4 @@
-# TBME Labs Parentx
+# TBME Labs Parent
 
 TBME Labs specific plugin configuration.
 
