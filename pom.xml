@@ -21,9 +21,9 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/tbmelabs/tbmelabs-bom</url>
-        <connection>scm:git:git://github.com/tbmelabs/tbmelabs-bom.git</connection>
-        <developerConnection>scm:git:git@github.com:tbmelabs/tbmelabs-bom.git</developerConnection>
+        <url>https://github.com/tbmelabs/tbmelabs-parent</url>
+        <connection>scm:git:git://github.com/tbmelabs/tbmelabs-parent.git</connection>
+        <developerConnection>scm:git:git@github.com:tbmelabs/tbmelabs-parent.git</developerConnection>
     </scm>
 
     <developers>
