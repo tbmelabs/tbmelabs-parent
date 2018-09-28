@@ -51,23 +51,6 @@
         <org.apache.maven.plugins.maven-surefire-plugin.version>2.22.0</org.apache.maven.plugins.maven-surefire-plugin.version>
         <org.codehaus.mojo.versions-maven-plugin.version>2.5</org.codehaus.mojo.versions-maven-plugin.version>
         <org.sonatype.plugins.nexus-staging-maven-plugin.version>1.6.8</org.sonatype.plugins.nexus-staging-maven-plugin.version>
-
-        <!-- Coverage properties -->
-        <project.build.test-result-directory>${project.build.directory}/test-results</project.build.test-result-directory>
-
-        <org.jacoco.jacoco-maven-plugin.dest-file-path>${project.build.test-result-directory}/coverage/jacoco/jacoco.exec</org.jacoco.jacoco-maven-plugin.dest-file-path>
-        <org.jacoco.jacoco-maven-plugin.output-path>${project.build.test-result-directory}/coverage/jacoco</org.jacoco.jacoco-maven-plugin.output-path>
-
-        <!-- Sonar configuration -->
-        <sonar.java.codeCoveragePlugin>jacoco</sonar.java.codeCoveragePlugin>
-
-        <!-- Sonar report paths for sonar-server >= 6.2 -->
-        <sonar.jacoco.reportPaths>${project.build.test-result-directory}/coverage/jacoco/jacoco.exec</sonar.jacoco.reportPaths>
-        <sonar.javascript.lcov.reportPaths>${project.build.test-result-directory}/coverage/report-lcov/lcov.info</sonar.javascript.lcov.reportPaths>
-
-        <!-- Sonar report paths for sonar-server < 6.2 -->
-        <sonar.jacoco.reportPath>${sonar.jacoco.reportPaths}</sonar.jacoco.reportPath>
-        <sonar.javascript.lcov.reportPath>${sonar.javascript.lcov.reportPaths}</sonar.javascript.lcov.reportPath>
     </properties>
 
     <dependencyManagement>
