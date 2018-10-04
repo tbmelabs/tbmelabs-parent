@@ -50,6 +50,7 @@
         <org.apache.maven.plugins.maven-source-plugin.version>3.0.1</org.apache.maven.plugins.maven-source-plugin.version>
         <org.apache.maven.plugins.maven-surefire-plugin.version>2.22.0</org.apache.maven.plugins.maven-surefire-plugin.version>
         <org.codehaus.mojo.versions-maven-plugin.version>2.5</org.codehaus.mojo.versions-maven-plugin.version>
+        <org.jacoco.jacoco-maven-plugin.version>0.8.2</org.jacoco.jacoco-maven-plugin.version>
         <org.sonatype.plugins.nexus-staging-maven-plugin.version>1.6.8</org.sonatype.plugins.nexus-staging-maven-plugin.version>
     </properties>
 
@@ -156,9 +157,11 @@
                 </executions>
             </plugin>
 
+            <!-- https://mvnrepository.com/artifact/org.jacoco/jacoco-maven-plugin -->
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
+                <version>${org.jacoco.jacoco-maven-plugin.version}</version>
 
                 <executions>
                     <execution>
@@ -170,7 +173,7 @@
                     </execution>
 
                     <execution>
-                        <id>default-reaport</id>
+                        <id>default-report</id>
 
                         <goals>
                             <goal>report</goal>
