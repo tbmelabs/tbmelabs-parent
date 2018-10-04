@@ -111,7 +111,7 @@
 
                 <executions>
                     <execution>
-                        <id>unit-tests</id>
+                        <id>default-tests</id>
 
                         <phase>test</phase>
 
