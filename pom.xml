@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>ch.tbmelabs</groupId>
     <artifactId>parent</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <packaging>pom</packaging>
 
     <name>TBME Labs | Parent</name>
@@ -45,7 +45,7 @@
 
         <!-- Dependency management -->
         <spring-boot-dependencies.version>2.0.6.RELEASE</spring-boot-dependencies.version>
-        <spring-cloud-dependencies.version>Edgware.SR5</spring-cloud-dependencies.version>
+        <spring-cloud-dependencies.version>Finchley.SR1</spring-cloud-dependencies.version>
 
         <!-- Dependency configuration -->
         <maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
